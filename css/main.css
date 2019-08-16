@@ -1,0 +1,67 @@
+.badge-big {
+  font-size: 22px;
+  background-color: #5CB85C; }
+
+.winning-numbers {
+  font-size: 24px; }
+
+.panel .panel .panel-body {
+  background-color: #2B3E50; }
+
+.panel .table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #2B3E50; }
+
+.ad-unit {
+  margin-bottom: 20px; }
+
+.panel-footer {
+  background-color: #1D2834; }
+
+.winning-cards {
+  font-size: 36px; }
+
+.playing-card {
+  display: inline-block;
+  background: white;
+  border-radius: 5px;
+  line-height: 3rem;
+  text-align: center;
+  width: 4.5rem; }
+
+.playing-card-suit {
+  font-size: 1.4em; }
+
+.playing-card-hearts, .playing-card-diamonds {
+  color: #C72026; }
+
+.playing-card-spades, .playing-card-clubs {
+  color: #000000; }
+
+.playing-card-delimeter {
+  position: relative;
+  top: -1.5rem; }
+
+.lottery-card-header {
+  position: relative; }
+
+.lottery-cost {
+  background-color: #1D2834;
+  border-radius: 100px 0 0 100px;
+  height: 2.6em;
+  width: 2.6em;
+  text-align: center;
+  line-height: 2.6em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-weight: bold;
+  padding-left: 0.3em; }
+
+.scratchcard-img {
+  display: block;
+  margin: auto;
+  max-height: 13.5em;
+  max-width: 100%; }
+
+.navbar-icon {
+  height: 1.25em; }

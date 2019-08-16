@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Interpreting Statistics - Lottery Galaxy</title>
+
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/main.css">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83886502-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="icon-bar"></span> <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Lottery Galaxy</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lotteries<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/lotteries.html">Overview</a></li>
+            <li role="separator" class="divider"></li>
+            
+            
+              <li><a href="/national/daily-grand.html">Daily Grand</a></li>
+            
+              <li><a href="/ontario/encore.html">Encore</a></li>
+            
+              <li><a href="/ontario/lottario.html">Lottario</a></li>
+            
+              <li><a href="/national/649.html">Lotto 6/49</a></li>
+            
+              <li><a href="/national/lotto_max.html">Lotto Max</a></li>
+            
+              <li><a href="/ontario/megadice.html">Megadice</a></li>
+            
+              <li><a href="/ontario/49.html">Ontario 49</a></li>
+            
+              <li><a href="/ontario/poker-lotto.html">Poker Lotto</a></li>
+            
+              <li><a href="/ontario/poker-lotto-all-in.html">Poker Lotto All-In</a></li>
+            
+              <li><a href="/ontario/wheel-of-fortune.html">Wheel of Fortune</a></li>
+            
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Scratchcards<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/scratchcards.html">Overview</a></li>
+            <li role="separator" class="divider"></li>
+            
+            
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Guides<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            
+            
+              <li><a href="/guides/interpreting-stats.html">Interpreting Statistics</a></li>
+            
+              <li><a href="/guides/picking-lottery-numbers.html">Picking Lottery Numbers</a></li>
+            
+              <li><a href="/guides/lotteries.html">Which Lottery Should I Pick?</a></li>
+            
+          </ul>
+        </li>
+
+        <li>
+          <a target="_blank" href="https://twitter.com/lotterygalaxy">
+            <img class="navbar-icon" src="/img/twitter.png">
+          </a>
+        </li>
+
+        <li>
+          <a target="_blank" href="https://www.youtube.com/channel/UCHXh6QWEenysGCUQvmg6B2g">
+            <img class="navbar-icon" src="/img/youtube.png">
+          </a>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+  <div class="row">
+  <div class="col-sm-12">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h4><strong>Interpreting Statistics</strong></h4>
+      </div>
+      <div class="panel-body">
+        <p>Expected value, expected return, chance of a prize, split prize, estimated winners, what do they all mean?
+At first all of these statistics can feel overwhelming, but they are actually quite simple!
+Here’s a quick guide to understanding how each of these statistics is calculated, and what each of them means for you as a player.</p>
+
+<p><span id="jackpot"></span></p>
+<h3 id="jackpot">Jackpot</h3>
+<p>For lotteries the jackpot is the largest amount of money you can win, usually by matching every number from the draw on your ticket.
+The jackpot is what you see advertised, because it is the biggest and most exciting prize.
+There’s a reason it’s called a jackpot though, you have to be extremely lucky to win one.
+Weeks can go by with nobody claiming a jackpot.
+Each week most of the top winners will be one or two numbers off, so they will win just a percentage of the jackpot.</p>
+
+<p><span id="top-prize"></span></p>
+<h3 id="top-prize">Top Prize</h3>
+<p>For scratchcards the top-prize is the largest amount of money you can win.
+The top prize advertised on scratchcards is the most amount of money you could have won when the scratchcards were printed.
+There are a fixed number of each prize on scratchcards, so there may actually be no top prizes left.
+Lottery Galaxy will tell you the current top prize for each scratchcard.
+For example, if there are 5 top prizes of $10,000 for a scratchcard, and 25 prizes of $5,000 for a scratchcard, if all of the $10,000 are claimed, the new top prize is $5,000.
+In addition to telling you the current top prize, Lottery Galaxy can tell you how many top prizes are remaining.</p>
+
+<p><span id="chance-of-prize"></span></p>
+<h3 id="chance-of-a-prize">Chance of a Prize</h3>
+<p>Your chance of winning a prize is the chance that you will win some amount of money back, rather than $0.
+If everybody was a winner then there wouldn’t be funding for huge jackpots, so more often than not players need to walk away empty handed.
+To calculate the odds of winning a prize, you add together the chances of winning each prize.
+For example, if you’re flipping a coin and getting a heads wins you $5, while getting a tails leaves you with nothing, your odds of a prize is 50%.
+If you are rolling a dice and you win $100 for rolling a one or six, but $0 for any other roll, then you get a prize 2/6 of the time, for a prize chance of 33.33%.
+Lotteries typically have prize chances around 15%, while scratchcards vary from 20% to 30%.</p>
+
+<p><span id="estimated-winners"></span></p>
+<h3 id="estimated-winners">Estimated Winners</h3>
+<p>The estimated winners for a lottery prize is how many people are expected to win that prize amount.
+It’s interesting to see the number of players who are expected to win, but it’s actually very important to know for calculating split prize values.
+Suppose 100 people play a game where you toss a coin.
+Landing on heads means you win, landing on tails means you lose.
+On average 50 winners are expected.
+Similarly with the lottery, if the odds of winning a free play are 1 in 5, and 1,000,000 people enter, then on average 200,000 players will win free plays.</p>
+
+<p><span id="split-prize"></span></p>
+<h3 id="split-prize">Split Prize</h3>
+<p>For most lotteries the top prizes are split between all winners who matched the numbers.
+Take Lotto 6/49 for example, everyone who matches 4 out of the 6 numbers shares 9.5% of the prize pool.
+This means that if the prize pool is $10,000,000 the prize for 4/6 numbers is $950,000.
+Matching 4/6 numbers won’t get you nearly that much money though!
+Because so many people enter the lottery, it’s likely that 5000 or more people will also match 4/6 numbers, so your prize will be closer to $190.
+That’s why the lottery details page tells you the actual expected split prize.
+Things are very interesting for the very hard to win prizes though. Suppose a jackpot is $10,000,000.
+If the jackpot is won it may be by a single player, it may be by two players who each get $5,000,000, or maybe 3 players for $3,333,333.
+Lottery Galaxy uses probability theory to determine the odds of each outcome, and weights them accordingly.
+The actual prize you see for jackpots is the average amount that you will win for the jackpot based on all possible ways of splitting the jackpot, and how likely they are to occur.</p>
+
+<p><span id="expected-value"></span></p>
+<h3 id="expected-value">Expected Value</h3>
+<p>The expected value of a game of chance is how much money you can expect to win back on average.
+Let’s use a coin toss as an example.
+Assume that there’s an equal chance that the coin lands on heads or tails.
+If the coin lands on heads, you win $5, if the coin lands on tails you win nothing.
+Half the time you will win $5, half the time you will win $0.
+On average, you will win $2.50 by playing this game.
+A common mistake is to assume you will win back $2.50 each and every game.
+Remember that you can only win $0, or $5, not $2.50, so that’s obviously not the case!
+Even if you flip the coin 10 times, you could possible win $0, however you could also possibly win $50.
+The expected value simply reflects how much you can expect to win back if you play the game many many times.
+The more times you play, the closer your results will be to the expected value.
+So if you were to flip the coin 1000 times you would win close to $2500.and
+If you’re interested in reading more, check out the <a target="_blank" href="https://en.wikipedia.org/wiki/Law_of_large_numbers">Law of Large Numbers</a> on Wikipedia!</p>
+
+<p><span id="expected-return"></span></p>
+<h3 id="expected-return">Expected Return</h3>
+<p>The expected return is the percentage of your money you can expect to get back.
+It is calculated as the <a href="#expected-value">expected value</a> divided by the cost of the game.
+For example if the expected value of a game is $2, and the game costs $10 to play, then the expected return is $2 / $10 = 20%.
+On average this is the percentage of your initial spending that you will get back.
+For example, if you spend $100 on lottery games that have a 66% return, you can expect to get back $66 back on average.
+That said, you could get $0, or you could get $60,000,000 back, anything is possible!
+If you spend a lot of money on lotteries and scratchcards, you should make sure you’re going for games with the highest expected return.</p>
+
+<p><a href="/lotteries.html">
+  <button type="button" class="btn btn-danger">View Todays Lottery Odds &gt;</button>
+</a></p>
+
+<p><a href="/scratchcards.html">
+  <button type="button" class="btn btn-danger">View Todays Scratchcard Odds &gt;</button>
+</a></p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  <hr />
+  <div class="row">
+    <p class="text-center">
+      This website is intended to help people age 18+ to make informed decisions when gambling.
+      <br />
+      This website is not affiliated with OLG.
+      <br />
+      Always play within your means, gambling is a form of entertainment, not a form of investing or saving.
+      <br />
+      If you need help with a gambling problem please visit <a href="http://www.playsmart.ca/">Play Smart</a> for help.
+      <br />
+      Use the information provided on this website at your own risk.
+      <br />
+    </p>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
